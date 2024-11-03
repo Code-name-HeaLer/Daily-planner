@@ -331,7 +331,7 @@ const Planner = ({ darkMode, setDarkMode }) => {
                             <Droplet className="w-5 h-5" /> Water Intake
                         </h2>
                         <div className="flex gap-2">
-                            {Array.from({ length: 8 }).map((_, index) => (
+                            {Array.from({ length: 6 }).map((_, index) => (
                                 <button
                                     key={index}
                                     onClick={() => handleChange('waterIntake', index + 1)}
